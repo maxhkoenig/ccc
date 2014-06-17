@@ -1,0 +1,95 @@
+body {
+	background-color: #aceeff;	
+	
+	
+}
+
+#body {
+	margin-right: 25%;
+
+}
+
+#r:hover {
+	background-position-y: -120px;
+}
+
+#s:hover {
+	background-position-y: -180px;
+}
+
+#g:hover {	
+	background-position-y: -240px;
+}
+
+#m:hover {	
+	background-position-y: -300px;
+}
+
+#m:hover, #r:hover, #s:hover, #g:hover {
+	background-image: url("assets/ss-moyie-at-heritage.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+h1 {
+		font-family: 'Lato', sans-serif;
+		font-weight: 200;
+		text-align: center;
+	
+}
+
+#ltab {
+	top: 50px;
+	right: 10px;
+	width: 20%;
+	height: 800px;
+	height: auto;
+	position: fixed;
+	background-image: url("assets/Bl36RF4CQAEGhuj.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+ul {
+	text-align: center;
+	margin-top: 50px;
+}
+li {
+	
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: xx-large;
+	text-align: center;
+	color: black;
+	height: 30%;
+	width:100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	list-style: none;
+	
+	border:1px solid black;
+	
+	
+}
+
+li:hover {
+font-weight: 400;
+	color: white;	
+}
+
+li a:hover {
+font-weight: 400;
+	color: white;	
+}
+
+li a {
+text-align: center;
+ 
+	text-decoration: none;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-family: 'Lato', sans-serif;
+}
