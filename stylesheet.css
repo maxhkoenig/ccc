@@ -14,6 +14,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fffff', end
 	margin-right: 25%;
 background-color: rgba(0,0,0,0.50);
 padding-bottom: 30px;
+padding-top: 30px;
+
 }
 
 #link {
@@ -100,10 +102,11 @@ th {
 	display: block;
 }
 
-#ltab{
-	float: left;
-	background-color: rgba(0,0,0,0.75);
-	text-align: center;
+#ltab li{
+	
+	height: auto;
+	padding-top: 15%;
+	padding-bottom: 15%;
 
 	}
 
@@ -128,7 +131,8 @@ th {
 	top: 50px;
 	right: 10px;
 	width: 20%;
-	height: 800px;
+	background-color: rgba(0,0,0,0.50);
+	text-align: center;
 	height: auto;
 	position: fixed;
 	border: 1px groove white;
@@ -137,7 +141,8 @@ th {
 
 #navm ul {
 	text-align: center;
-	margin-top: 50px;
+	padding-top: 25px;
+	margin-bottom: 25px;
 }
 #navm li {
 	
