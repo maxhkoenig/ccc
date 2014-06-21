@@ -1,3 +1,5 @@
+/*This will be the dark stylesheet*/
+
 body {
 background: #7fffff; /* Old browsers */
 background: -moz-linear-gradient(top,  #7fffff 0%, #42c0ff 28%, #42c0ff 41%, #42c0ff 41%, #42c0ff 47%, #42c0ff 47%, #289bff 65%, #1e56ff 100%); /* FF3.6+ */
@@ -11,15 +13,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fffff', end
 }
 
 #body {
-	margin-right: 25%;
-background-color: rgba(0,0,0,0.50);
+	margin-right: 20%;
+	padding-right: 5%;
+background-color: rgba(0,0,0,0.5);
+border-right:1px solid #1a00a5;
 padding-bottom: 30px;
 padding-top: 30px;
 
 }
 
 #link {
-	color: #00eaff;
+	color:#00bbff;
 }
 
 #r:hover {
@@ -94,22 +98,30 @@ th {
 	
 }
 
+
+
 #ltab li{
-	height: 100px;
-	padding-right: 50px;
 	text-decoration: none;
 	text-align: center;
 	display: block;
-}
-
-#ltab li{
-	
+	margin-right: 25%;
 	height: auto;
 	padding-top: 15%;
 	padding-bottom: 15%;
 
 	}
 
+#ltab {
+	top: 50px;
+	right: 2.3%;
+	width: 15%;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	height: auto;
+	position: fixed;
+	border: 1px groove white;
+	
+}
 #plist {
 	width: 100%; 
 	color: white;
@@ -127,17 +139,6 @@ th {
 	display: inline-block;
 }
 
-#ltab {
-	top: 50px;
-	right: 10px;
-	width: 20%;
-	background-color: rgba(0,0,0,0.50);
-	text-align: center;
-	height: auto;
-	position: fixed;
-	border: 1px groove white;
-	
-}
 
 #navm ul {
 	text-align: center;
@@ -157,7 +158,7 @@ th {
 	padding-bottom: 30px;
 	list-style: none;
 	
-	border:1px solid black;
+	border:1px solid white;
 	
 	
 }
@@ -180,4 +181,16 @@ text-align: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
 	font-family: 'Lato', sans-serif;
+}
+
+#center {
+	text-align: center;
+	font-weight: 400;
+}
+
+#bottom {
+	padding-bottom: 50px;
+	margin-left: -10%;
+	padding-left: 10%;
+	border-bottom: 5px dotted #00d0ff
 }
