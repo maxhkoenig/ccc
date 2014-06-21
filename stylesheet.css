@@ -23,6 +23,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00dcf9', end
 
 }
 
+#link {
+	color: #00eaff;
+}
+
 #r:hover {
 	background-position-y: 20%;
 }
