@@ -12,6 +12,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7fffff', end
 
 }
 
+
 #body {
 	margin-right: 20%;
 padding-top: 30px;
@@ -51,6 +52,7 @@ background-color: rgba(0,0,0,0.5);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	
+	
 }
 
 #content {
@@ -67,7 +69,7 @@ h1 {
 h2 {
 		color: white;
 		text-align: center;
-		font-weight: 200;
+		font-weight: 100;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -79,13 +81,15 @@ color: white;
 
 li {
 	color: white;
-	font-weight: 300;
-	
+	font-weight: 200;
 	font-family: 'Lato', sans-serif;
 }
 
 table {
 	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	
 }
 
 th {
@@ -93,7 +97,7 @@ th {
 	border: 1px groove white;
 	color: white;
 	text-align: center;
-	font-weight: 300;
+	font-weight: 100;
 		font-family: 'Lato', sans-serif;
 	
 }
@@ -102,6 +106,8 @@ td {
 	color: white;
 	font-family: 'Lato', sans-serif;
 	border: 1px groove white;
+	padding: 10px;
+	font-weight: 100;
 }
 
 
@@ -118,7 +124,7 @@ td {
 	#ltab ul{
  padding-top: 15%;
  padding-bottom: 15%;
- margin-left: -40%;
+ margin-left: -20%;
 margin-top: 10%;
 	}
 
@@ -154,22 +160,20 @@ margin-top: 10%;
 
 #navm ul {
 	margin-bottom: 25px;
-	padding-top: 25px;
 	text-align: center;
+	
 }
 #navm li {
 	padding-top: 30px;
 	padding-bottom: 30px;
 	width:100%;
 	height: 30%;
-	
 	border:1px solid white;
 	color: white;
 	list-style: none;
 	text-align: center;
 	font-weight: 100;
 	font-size: xx-large;
-	
 	font-family: 'Lato', sans-serif;
 	
 	
@@ -177,7 +181,8 @@ margin-top: 10%;
 
 #navm li:hover {
 	color: white;
-font-weight: 400;	
+font-weight: 400;
+	
 }
 
 #navm li a:hover {
@@ -186,11 +191,9 @@ font-weight: 400;
 }
 
 #navm li a {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	
 	color: white;
 text-align: center;
- 
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 }
